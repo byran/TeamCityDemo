@@ -12,9 +12,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hello.h" />
+    <ClInclude Include="hiker.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.cpp" />
+    <ClCompile Include="hiker.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8DE9932A-3A56-42E6-A4C3-F56A713B418B}</ProjectGuid>

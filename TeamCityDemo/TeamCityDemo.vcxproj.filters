@@ -18,9 +18,15 @@
     <ClInclude Include="hello.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="hiker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hiker.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
