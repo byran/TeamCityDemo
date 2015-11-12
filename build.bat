@@ -2,7 +2,7 @@
 
 echo Running SourceMonitor analysis
 cd "%~dp0\BuildServer\SourceMonitor"
-REM call AddCheckpointAndOutputMetrics.bat
+call AddCheckpointAndOutputMetrics.bat
 
 echo Running CodeCoverage by tests
 cd "%~dp0\BuildServer\OpenCppCoverage"
