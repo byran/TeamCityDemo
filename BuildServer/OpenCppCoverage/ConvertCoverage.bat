@@ -6,7 +6,7 @@ set APP=%2
 
 cd "%CURRENT_DIRECTORY%"
 del Coverage.xml
-opencppcoverage --sources %SOURCES% --export_type=cobertura:Coverage.xml -- %APP%
+opencppcoverage --sources %SOURCES% --export_type=cobertura:Coverage.xml -- %APP% --gtest_output=xml:test_results.xml
 
 cd "%CURRENT_DIRECTORY%"
 ..\xslconvert "Coverage.xml" CoverageToTeamCity.xslt Coverage.txt

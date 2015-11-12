@@ -14,7 +14,7 @@
     <xsl:variable name="covered_lines" select="count(/coverage/packages/package/classes/class/lines/line[@hits!='0'])" />
     <xsl:variable name="coverage" select="($covered_lines * 100) div $total_lines"/>
 
-    <xsl:text>##teamcity[buildStatisticValue key='CodeCoverage' value='</xsl:text>
+    <xsl:text>##teamcity[buildStatisticValue key='OpenCppCoverage' value='</xsl:text>
     <xsl:value-of select="$coverage"/>
     <xsl:text>']</xsl:text>
     <xsl:value-of select="$nl"/>
