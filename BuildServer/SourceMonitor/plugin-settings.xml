@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <custom-graphs>
+
+    <graph title="Complexity" defaultFilters="showFailed" seriesTitle="Metrics">
+      <valueType key="Average_Complexity" title="Average" buildTypeId="bt4"/>
+      <valueType key="Maximum_Complexity" title="Maximum"/>
+    </graph>
+
+    <graph title="Depth" defaultFilters="showFailed" seriesTitle="Metrics">
+      <valueType key="Average_Block_Depth" title="Average" buildTypeId="bt4"/>
+      <valueType key="Maximum_Block_Depth" title="Maximum"/>
+    </graph>
+
+    <graph title="Function Metrics" defaultFilters="showFailed" seriesTitle="Metrics">
+      <valueType key="Lines" title="Lines" buildTypeId="bt4"/>
+      <valueType key="Statements" title="Statements"/>
+      <valueType key="Functions" title="Functions"/>
+    </graph>
+
+    <graph title="Classes" defaultFilters="showFailed" seriesTitle="Metrics">
+      <valueType key="Classes_Defined" title="Classes Defined" buildTypeId="bt4"/>
+      <valueType key="Methods_Implemented_per_Class" title="Methods Implemented per Class"/>
+      <valueType key="Average_Statements_per_Method" title="Average Statements per Method"/>
+    </graph>
+
+    <graph title="Percentages" defaultFilters="showFailed" seriesTitle="Metrics" format="Percent">
+      <valueType key="Percent_Branch_Statements" title="Percent Branch Statements" buildTypeId="bt4"/>
+      <valueType key="Percent_Lines_with_Comments" title="Percent Lines with Comments"/>
+    </graph>
+
+  </custom-graphs>
+</settings>
