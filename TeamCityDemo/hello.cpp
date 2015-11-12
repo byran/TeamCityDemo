@@ -9,4 +9,14 @@ void hello::say_hello()
 void hello::say_world()
 {
 	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
+	std::cout << "World" << std::endl;
 }
