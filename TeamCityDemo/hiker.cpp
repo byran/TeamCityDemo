@@ -3,5 +3,5 @@
 
 int hiker::answer() const
 {
-	return 42;
+	return 100;
 }
